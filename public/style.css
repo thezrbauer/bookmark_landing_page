@@ -1,0 +1,187 @@
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-blue:hsl(231, 69%, 60%);
+  --soft-red:hsl(0, 94%, 66%);
+  --grayish-blue:hsl(229, 8%, 60%);
+  --very-dark-blue: hsl(229, 31%, 21%);
+ 
+}
+    
+  
+  
+  body {
+    max-width: 1440px;
+    margin:0 auto;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+/* mobile media query max width 375px; */
+  /* Navbar */
+  nav {
+    display:flex;
+    margin: 1rem;
+
+  }
+
+nav > #nav-svg {
+  width: 50%;
+  margin:1rem;
+  padding-top:.5rem;
+  padding-left:3rem;
+}
+
+nav > #navbar {
+width:50%;
+
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: .6rem;
+    
+  }
+
+  li:hover {
+    color:var(--soft-red)
+  }
+      
+
+  .login-btn {
+    padding: .3rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    border-radius:3px;
+    background-color: var(--soft-red);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: solid var(--soft-red) 2px;
+  
+    color: white;
+  }
+  .login-btn:hover {
+    background-color:white;
+    color:var(--soft-red);
+  }
+
+ 
+ 
+ 
+  /* HERO */
+
+#hero {
+
+display: flex;
+flex-direction:row;
+}
+
+
+#hero-left {
+  width:50%;
+  padding: 3rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+#hero-title {
+font-size:30px;
+
+color:var(--very-dark-blue)
+}
+
+#hero-text {
+font-size:16px;
+
+color:var(--grayish-blue)
+}
+
+
+#btn-box {
+
+}
+
+#hero-btn-1 {
+  margin:.2rem;
+  padding: .5rem;
+  padding-left:1.3rem;
+  padding-right:1.3rem;
+  border-radius:3px;
+  border: solid var(--soft-blue) 2px;
+  color:white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: var(--soft-blue);
+}
+
+#hero-btn-1:hover {
+  background-color:white;
+    color:var(--soft-blue);
+}
+
+
+#hero-btn-2 {
+  margin:.2rem;
+  padding: .5rem;
+  padding-left:1.3rem;
+  padding-right:1.3rem;
+  border-radius:3px;
+  border: solid rgb(235, 235, 235) 2px;
+  color:var(--very-dark-blue);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color:rgb(235, 235, 235);
+
+}
+
+
+#hero-btn-2:hover {
+  background-color:white;
+  border: solid var(--very-dark-blue) 2px;
+  
+}
+
+#hero-right{
+  background-image: url(/images/blue-pill-right.svg);
+  background-size: cover;
+  background-position-y: 90px;
+  background-repeat: no-repeat;
+  background-position-x: 150px;
+  width: 60rem;
+}
+
+   
+#hero-right img{
+  width: 40rem;
+  margin: 2rem 3rem 2rem 0rem;
+}
+
+
+#features-info {
+  width: 100%;
+  height: 10rem;
+  text-align:center; 
+}
+
+#features-title {
+  color:var(--very-dark-blue)
+}
+
+#features-text {
+  width:45%;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  color:var(--grayish-blue)
+}
+
+
+
+.list {
+  list-style-type: none;
+  display: inline-block;
+  margin: .6rem;
+  
+}
